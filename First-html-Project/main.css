@@ -23,9 +23,9 @@ padding: 30px 10px 30px 10px;
     justify-items: center;
     background-image: url(https://cdn.arcgis.com/sharing/rest/content/items/a791620b1595495ea7f5f7dcec99c279/resources/L3KawWcD7LmFZcfXI0moD.jpeg);
 background-position: center;
-background-size: cover;
 background-repeat: no-repeat;
-background-color: #000000;
+background-size: cover;
+background-attachment: fixed;
 }
 .words {
 color: #ffffff;
