@@ -1,3 +1,40 @@
+body, li, p, ul, h1 {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0 0 0 0;
+border: 0 0 0 0;
+padding: 0 0 0 0;
+font-size: 100%; font-weight: normal;
+}
 .tabs {
     text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #000000; color: #ffffff;
+    padding-top: 10px; padding-bottom: 10px;
+}
+.tabs li {list-style-type: none;
+display: inline;
+padding: 30px 10px 30px 10px;
+}
+#content {
+    display: block;
+    align-items: center;
+    justify-items: center;
+    background-image: url(https://cdn.arcgis.com/sharing/rest/content/items/a791620b1595495ea7f5f7dcec99c279/resources/L3KawWcD7LmFZcfXI0moD.jpeg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #000000;
+}
+.words {
+color: #ffffff;
+font-weight: 800;
+text-align: center;
+line-height: 48px;
+margin-top: 200px;
+font-size: 50px;
+}
+.words p {
+    font-size: medium;
 }
