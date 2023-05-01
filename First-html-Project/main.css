@@ -11,8 +11,8 @@ form {
     display: flexbox;
     margin: 250px 650px 0px 600px;
     padding: 20px;
-    width: 260px
-    
+    width: 260px;
+    border-radius: 2%;
 }
 input {
     width: 150px;
