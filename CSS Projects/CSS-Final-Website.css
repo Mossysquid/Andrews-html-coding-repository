@@ -84,7 +84,7 @@ top: 55px;
 }
 #onetext {
     width: 66.66%;
-    background-color: #002;
+    background-color: rgba(65, 64, 64, 0.452);
 }
 #bread { 
     width: 33.33%;
@@ -105,5 +105,5 @@ top: 55px;
 }
 #threetext {
     width: 66.66%;
-    background-color: #002;
+    background-color: rgba(65, 64, 64, 0.452);
 }
