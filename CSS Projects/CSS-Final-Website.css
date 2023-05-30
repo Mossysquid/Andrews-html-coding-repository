@@ -1,0 +1,109 @@
+html, body, div {
+margin: 0;
+padding: 0;
+background-color: black;
+font-family: 'League Gothic', sans-serif;
+color: white;
+font-size: large;
+letter-spacing: 3px;
+}
+.background {
+   position: relative;
+   width: 100%;
+}
+.tabs {
+color: white;
+align-items: center;
+display: flex;
+position: absolute;
+top: 0;
+right: 0;
+background: transparent;
+margin-right: 5%;
+}
+.tabs a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    color: white;
+    margin-top: 25px;
+    font-weight: 200;
+}
+ h4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 25px;
+    margin-left: 5%;
+    color: white;
+}
+
+.title {
+width:90%;
+margin-left: 5%;
+margin-right: 5%;
+height: 300px;
+top: 55px;
+    background: transparent;
+    position: absolute;
+    border-top: 2px white solid;
+}
+
+.title h1 {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    font-size: 100px;
+    left: 40%;
+    color: white;
+}
+.title h3{
+    position: absolute;
+    top: 85%;
+    left: 32%;
+    border-top: 2px solid white;
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 40px;
+}
+.tabs img {
+    display: block;
+    width: 100%;
+}
+.background img {
+    display: block ;
+    width: 100%;
+    position: relative;
+}
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+#onetext {
+    width: 66.66%;
+    background-color: #002;
+}
+#bread { 
+    width: 33.33%;
+}
+#twotext {
+    width: 66.66%;
+    background-color: black;
+}
+#pineapple {
+    
+    
+    width: 33.33%;
+}
+#pasta {
+    
+    
+    width: 33.33%;
+}
+#threetext {
+    width: 66.66%;
+    background-color: #002;
+}
