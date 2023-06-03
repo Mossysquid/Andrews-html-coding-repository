@@ -5,12 +5,10 @@ background-color: black;
 font-family: 'League Gothic', sans-serif;
 color: white;
 font-size: large;
+font-weight: 200;
 letter-spacing: 3px;
 }
-.background {
-   position: relative;
-   width: 100%;
-}
+
 .tabs {
 color: white;
 align-items: center;
@@ -33,6 +31,9 @@ margin-right: 5%;
 }
  h4 {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     margin: 25px;
@@ -41,11 +42,11 @@ margin-right: 5%;
 }
 
 .title {
-width:90%;
-margin-left: 5%;
-margin-right: 5%;
-height: 300px;
-top: 55px;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 350px;
+    top: 55px;
     background: transparent;
     position: absolute;
     border-top: 2px white solid;
@@ -72,26 +73,31 @@ top: 55px;
     display: block;
     width: 100%;
 }
-.background img {
-    display: block ;
-    width: 100%;
-    position: relative;
-}
+
 .main {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
 }
+.main h2 {
+padding-left: 50px;
+padding-right: 50px;
+}
+.main p {
+padding-left: 50px;
+padding-right: 50px;
+font-weight: 100;
+}
 #onetext {
     width: 66.66%;
-    background-color: #002;
+    background-color: black;
 }
 #bread { 
     width: 33.33%;
 }
 #twotext {
     width: 66.66%;
-    background-color: black;
+    background-color: rgba(41, 40, 40, 0.563);
 }
 #pineapple {
     
@@ -105,5 +111,9 @@ top: 55px;
 }
 #threetext {
     width: 66.66%;
-    background-color: #002;
+    background-color: rgb(33, 33, 33);
 }
+.background-img {
+    opacity: 0.5; /* Adjust the opacity value as desired */
+    background-blend-mode: darken; /* Applies a darken effect to the image */
+  }
