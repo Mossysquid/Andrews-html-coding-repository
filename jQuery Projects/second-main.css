@@ -1,0 +1,80 @@
+ h1, h2, h3 {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+body {
+    min-height: 100vh;
+    padding: 10px;
+    background-color: lightgray;
+}
+#mainContainer {
+    margin-left:10%;
+    margin-right: 10%;
+}
+#head {
+    padding-bottom: 10px;
+    margin: 0;
+
+}
+#line {
+    width: 50px;
+    border-bottom: black solid 1px;
+    margin-bottom: 10px;
+
+}
+
+button {
+    padding: 5px;
+}
+.row-name {
+    width: 200px;
+
+}
+.row-price {
+    width: 200px;
+    padding-left: 10px;
+}
+.row-details {
+    width: 200px;
+}
+.row-item {
+display: flex;
+    width: 90%;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.appendThisObject {
+    display:flex;
+    flex-direction: column;
+}
+.darkMode {
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+.darkMode button {
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    color: white;
+   border-radius: 5%;
+    border: 1px solid rgba(253, 253, 253, 0.678);
+}
+.darkMode .row-item{
+color: white;
+background-color: grey;
+box-shadow: 0 2px 4px rgba(253, 253, 253, 0.678);
+}
+.darkMode h1 {
+    color: white;
+}
+.darkMode #line {
+    border-color: white;
+}
