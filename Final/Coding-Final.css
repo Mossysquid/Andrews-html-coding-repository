@@ -14,33 +14,34 @@ body {
 #head h3 {
     font-weight: 100;
 }
-
 .inputBottomBar {
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: white;
     padding: 15px;
     width: 92%;
-    margin-left: 3.5%;
-    height: 45px;
+    max-width: 92%;
+    height: 50px;
     border-radius: 5px;
 }
 .inputBottomBar .displayName {
-width: 110px;
+width: 10%;
 height: 20px;
 justify-content: flex-end;
 margin-top: 10px;
 }
 .inputBottomBar .comment {
     height: 20px;
-    width:1200px;
+    width: 75%;
     justify-content: center;
     margin-left:10px;
     margin-top: 10px;
 }
 .inputBottomBar .submit {
     height: 25px;
-    width: 75px;
+    width: 10%;
     margin-left: 10px;
     border-style: none;
     background-color: transparent;
@@ -61,11 +62,10 @@ button {
 }
 .card {
     background-color: rgba(255, 255, 255, 0.562);
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 20px;
-    width: 90%;
-    margin-left: 3.5%;
-   
+    width: 94%;
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
@@ -99,9 +99,7 @@ button {
 width: 90%;
 }
 #holdingContainer {
-    width: 90%;
-    margin-left: 3.5%;
-    height: 115px;
+    height: 125px;
 }
 .saveButton {
     border-style: none;
@@ -110,8 +108,18 @@ width: 90%;
 .editCommentInput {
     width: 800px;
 }
-.backgroundContainer {
-    background-color: rgba(212, 203, 203, 0.849);
-    width: 90%;
-    margin-left: 3.5%
+#backgroundContainer {
+    background-color: rgba(217, 217, 217, 0.585);
+    width: 93.5%;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .profileImages {
+    max-width: 70px;
+    margin-right: 10px;
+    float: left;
 }

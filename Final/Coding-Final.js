@@ -15,6 +15,7 @@ $(document).ready(function() {
             <div id="${counter}" class="card"> 
             <button class="editButton">Edit</button>
             <button class="deleteButton">Delete</button>
+            <img src="images.png" alt="Image" class="profileImages">
                 <div class="name">${displayName}</div>
                 <div class="comment">${comment}</div>
             </div>
@@ -25,6 +26,7 @@ $(document).ready(function() {
             $('.originalPost').addClass('finalOriginalPost');
             $('.editButton').css('display','none');
             $('.deleteButton').css('display','none');
+            $('.profileImages').css('display','none');
         } else {
             $('#mainContainer').prepend(newCard);
         }
@@ -38,10 +40,11 @@ $(document).ready(function() {
         const postId = card.attr('id');
         const editForm = `
           <div class="editContainer">
+          <img src="images.png" alt="Image" class="profileImages">
             <div class="name">${card.find('.name').text()}</div>
             <div class="comment">${commentText}</div>
             <form class="editForm">
-              <input class="editCommentInput" value="${commentText}">
+              <input class="editCommentInput" value="${commentText}"  accept-charset="UTF-8">
               <button type="submit" class="saveButton">Submit</button>
             </form>
           </div>
@@ -56,6 +59,7 @@ $(document).ready(function() {
           card.html(`
             <button class="editButton">Edit</button>
             <button class="deleteButton">Delete</button>
+            <img src="images.png" alt="Image" class="profileImages">
             <div class="name">${card.find('.name').text()}</div>
             <div class="comment">${editedComment}</div>
             
@@ -68,5 +72,3 @@ $(document).ready(function() {
         card.remove();
       });
     });   // delete function
-//fix main bar 
-// then I will fix the positioning of all of the inputs, insert a input picture, then figure why it deletes the main message when you edit it.
