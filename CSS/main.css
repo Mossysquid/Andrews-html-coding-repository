@@ -10,17 +10,26 @@ html, body, div {
        width: 100%;
        top: 0;
        height: 50px;
-   
+   display: flex;;
     }
+     .linking {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        background-color: rgba(236, 181, 0, 0.89);
+       width: 100%;
+       top: 0;
+       height: 50px;   
+       display: flex;
+       justify-content: flex-end;
+     }
      .tabs h4 {
-        float: left;
         margin: 15px 40px;
-       
+       align-items: center;
+       width: 100%;
     }
     .tabs a {
         Margin:15px 20px;
         padding-left: -50px;
-        float: right;
         color: white;
         text-decoration: none;
     }
@@ -29,20 +38,21 @@ html, body, div {
      
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    display:-ms-inline-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
    
     }
     .box {
         position: relative;
         width: 400px;
-        height: 400px;
-            float: right;
         padding:10px;
         border: 3px solid rgba(236, 181, 0, 0.89);
         margin:5px;
         top: 35px;
         left: 20px;
        padding-bottom: 50px;
+
     }
     #submit {
         text-align: center;
